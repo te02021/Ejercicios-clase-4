@@ -7,7 +7,7 @@ muestre por pantalla todos los números impares desde 1 hasta ese número separa
 def impar(num):
     lista = []
     for i in range(1, num + 1, 2):
-        lista.append(i)
+        lista.append(str(i))
     resultado = ", ".join(lista)
     return resultado
 
